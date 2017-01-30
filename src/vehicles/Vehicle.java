@@ -12,7 +12,8 @@ package vehicles;
 public class Vehicle {
     
     private double gallonsOfGas;
-    private int milesPerGallon;
+    private int mpg;
+    private int odometer; 
 
     /**
      * @return the gallonsOfGas
@@ -40,6 +41,20 @@ public class Vehicle {
      */
     public void setMpg(int mpg) {
         this.mpg = mpg;
+    }
+
+    /**
+     * @return the odometer
+     */
+    public int getOdometer() {
+        return odometer;
+    }
+
+    /**
+     * @param odometer the odometer to set
+     */
+    public void setOdometer(int odometer) {
+        this.odometer = odometer;
     }
     
 }
