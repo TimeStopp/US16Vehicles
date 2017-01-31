@@ -15,6 +15,10 @@ public class Vehicle {
     private int mpg;
     private int odometer; 
 
+    
+    public void go(int distance) {
+        
+    }
     /**
      * @return the gallonsOfGas
      */

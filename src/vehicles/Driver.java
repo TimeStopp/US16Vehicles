@@ -23,7 +23,17 @@ public class Driver {
     public static void promptUser(){
         System.out.println("In prompt user");
         
-        new Vehicle();
-}
+        //create and object of type vehicle,l and store it in the variable myVehicle
+        Vehicle myVehicle = new Vehicle();
+        
+        //set the attributes in myVehicle object
+        myVehicle.setGallonsOfGas(12.0);
+        myVehicle.setMpg(20);
+        myVehicle.setOdometer(10000);
+        
+        //move the vehicle 
+        myVehicle.go(40);
+                
+    }
     
 }
